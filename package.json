@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Very simple portfolio ",
+  "license": "MIT",
+  "author": "miikamenk",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build:css": "postcss input.css -o dist/output.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.6"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.6",
+    "express": "^5.1.0"
+  }
+}
