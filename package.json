@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "build:css": "postcss input.css -o dist/output.css"
+    "build:css": "postcss input.css -o public/output.css",
+    "build": "npm run build:css"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
